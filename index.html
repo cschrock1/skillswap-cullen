@@ -3,32 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <title>Skill Swap</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">Skill Swap</a>
+    <header class="site-header">
+        <a class="site-name" href="#home">Skill Swap</a>
         <nav aria-label="Main navigation">
-            <p>Navigation links coming soon.</p>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#browse-skills">Browse Skills</a></li>
+                <li><a href="#offer-skills">Offer Skills</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main>
-        <section aria-labelledby="hero-heading">
+    <main class="page-content">
+        <section class="hero" id="home" aria-labelledby="hero-heading">
             <h1 id="hero-heading">Share your skills. Learn from others.</h1>
             <p>Connect with people to teach what you know and discover something new.</p>
+            <a class="hero-link" href="#browse-skills">Explore skills</a>
         </section>
 
-        <section aria-labelledby="offerings-heading">
+        <section class="content-section" id="browse-skills" aria-labelledby="offerings-heading">
             <h2 id="offerings-heading">Skill offerings</h2>
             <p>Skill offerings will appear here soon.</p>
         </section>
+
+        <section class="content-section" id="offer-skills" aria-labelledby="offer-skills-heading">
+            <h2 id="offer-skills-heading">Offer a skill</h2>
+            <p>Information about sharing your skills will appear here soon.</p>
+        </section>
+
+        <section class="content-section" id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Skill Swap</h2>
+            <p>Skill Swap helps people learn from one another by sharing what they know.</p>
+        </section>
     </main>
 
-    <footer>
-        <p>Skill Swap footer content coming soon.</p>
+    <footer class="site-footer">
+        <p>&copy; 2026 Skill Swap</p>
     </footer>
 </body>
 </html>
